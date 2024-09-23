@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Se agregan locales a urls de index y blog
+RewriteRule ^en/(.*)$ $1?locale=en [QSA,L]
+RewriteRule ^en/blog/(.*)$ $1?locale=en [QSA,L]
+
+# Redirección de urls a archivos php en raíz
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Condición: si el esquema no es HTTPS
+RewriteCond %{HTTPS} !=on
+
+# Condición: si el dominio es tu pizzayya.com
+RewriteCond %{HTTP_HOST} ^(www\.)?pizzayya\.com$ [NC]
+
+# Redirección: redirigir a la versión HTTPS
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

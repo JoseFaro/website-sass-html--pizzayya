@@ -1,0 +1,347 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+p {
+	font-size: 16px;
+}
+
+.rappi-bg-color {
+	background: #fa3d22;
+}
+
+.rappi-color {
+	color: #fa3d22;
+}
+
+.logo-default {
+	width: 150px;
+	height: auto !important;
+}
+
+.slider-container {
+	max-width: 100% !important;
+	background: #00000085;
+}
+
+#header.sticky-header #header-wrap {
+	border-bottom: 0 !important;
+}
+
+.separator-order-btn {
+	margin-top: 10px;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.portfolio-desc {
+	padding: 0;
+}
+
+.menu-title {
+	font-size: 18px !important;
+	color: #333 !important;
+}
+
+.menu-description {
+	font-size: 14px;
+	min-height: 47px;
+}
+
+.menu-description-2 {
+	font-size: 14px;
+}
+
+.menu-img {
+	border-radius: 5px !important;
+}
+
+.menu-option-label {
+	font-size: 13px;
+	padding-left: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menu-separator {
+	height: 2px;
+	margin-bottom: 12px !important;
+}
+
+.menu-separator-2 {
+	height: 1px;
+	margin-bottom: 40px !important;
+	/* background-color: #e7272d; */
+}
+
+.portfolio-desc {
+	z-index: 0 !important;
+}
+
+.medium-separator {
+	height: 5px;
+}
+
+.pizza-description-2 {
+	background: white;
+}
+
+.menu-form-row {
+	margin: 0 !important;
+}
+
+.menu-form-group {
+	padding: 0 !important;
+}
+
+.menu-form-group:nth-child(2) {
+	margin: 0 9px !important;
+}
+
+.menu-form-group:nth-child(-n+3) {
+  width: calc(33% - 6px);
+  max-width: 100%;
+}
+
+.menu-form-group select {
+	font-size: 12px;
+	width: 100%;
+}
+
+.btn-app {
+	background-color: #12bc04 !important;
+	border-color: #12bc04 !important;
+	border-radius: 4px !important;
+	width: 100% !important;
+}
+
+.btn-app-red {
+	background-color: #e7272d !important;
+	border-color: #e7272d !important;
+	border-radius: 4px !important;
+	width: 100% !important;
+}
+
+.btn-app-whatsapp {
+	background-color: #25d366 !important;
+	border-color: #25d366 !important;
+	border-radius: 4px !important;
+	padding: 10px 20px;
+	color: #fff;
+	width: 100%;
+}
+
+.btn-app-whatsapp-light {
+	color: #25d366 !important;
+	font-weight: 700 !important;
+	font-size: 14px !important
+}
+
+.btn-app-rappi {
+	background-color: #c81c20 !important;
+	border-color: #c81c20 !important;
+	border-radius: 4px !important;
+	padding: 10px 20px;
+	color: #fff;
+	width: 100%;
+	/* font-weight: 600; */
+}
+
+.menu-item-price {
+	font-weight: 700;
+	font-size: 20px;
+	/* width: 150px; */
+	color: #333;
+}
+
+.menu-item-price span {
+	color: #333;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
+	position: relative;
+	top: -2px;
+}
+
+.portfolio-item:hover .portfolio-image::after {
+	display: none !important;
+}
+
+/* .menu-icon-cart {
+	font-size: 23px !important;
+	position: relative !important;
+	top: -2px;
+	margin-left: 5px !important;
+} */
+
+#footer span,
+#footer a,
+#footer {
+	color: #fff !important;
+	font-weight: normal !important;
+}
+#footer {
+	padding: 0 !important;
+}
+
+.name-pizzayya-overlay {
+	position: absolute;
+	top: 30px;
+	left: 62px;
+	background: #472f2f;
+	color: white;
+	font-size: 13px;
+}
+
+.color-whatsapp {
+	color: #25d366;
+}
+
+.color-green {
+	color: #000 !important;
+}
+
+.bg-pizza-image {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+
+.app-list {
+	font-size: 14px;
+}
+
+.app-list li {
+	margin-bottom: 5px;
+	display: inline-block;
+	padding: 6px 18px;
+	border-radius: 10px;
+	border: 1px solid #cd8a8c;
+	margin: 0 10px 10px 0;
+	font-weight: 600;
+}
+
+.app-list li:hover {
+	margin-bottom: 5px;
+	background: #e7272d;
+	color: white;
+}
+
+.delivery-color {
+	width: 23px;
+	height: 23px;
+	position: relative; 
+	top: 6px;
+}
+
+.delivery-color-green {
+	background-color: #0f9d5899;
+}
+
+.delivery-color-yellow {
+	background-color: #ffea00a6;
+}
+
+.delivery-color-gray {
+	background-color: #bdbdbda6;
+}
+
+.delivery-title {
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+
+.cash-payment-disclaimer {
+	color: #6c757d;
+	text-transform: underline;
+}
+
+.delivery-description p {
+	color: #6c757d;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 1225px) and (min-width: 991px) {
+	.menu-item .menu-link{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 991px) {
+	.menu-price-box {
+		font-size: 14px;
+	}
+
+	#logo a img {
+		position: relative;
+		top: 5px;
+		width: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+	.bg-pizza-image {
+		min-height: 0;
+		height: auto;
+		padding: 40px 0;
+	}
+
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.menu-price-box {
+		font-size: 12px;
+	}
+
+	.menu-form-row {
+		flex-direction: column;
+	}
+
+	.menu-form-group,
+	.menu-form-group:nth-child(2) {
+		margin: 0 0 10px 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+	}
+
+	.menu-btn-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menu-btn-container > div {
+		margin-bottom: 17px;
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 479px) {
+	.menu-price-box {
+		font-size: 10px;
+	}
+}
